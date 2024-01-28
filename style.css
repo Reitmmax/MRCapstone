@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body {
+	background-color:rgba(76,132,156,.5);
+}
+
+.navbar {
+	background-color: rgba(53,169,219,1.00);
+	
+}
+.navbar-default .navbar-nav li a {
+	color: #2F2F2F;
+}
+.navbar-default .navbar-nav li a:hover {
+	color: #434343;
+}
+
+.navbar-default .navbar-brand {
+    color: #2F2F2F;
+}
+.navbar-default .navbar-brand:hover {
+    color: #434343;
+}
+h1 {
+	text-align: center;
+	font-size: 4em;
+	
+	
+}
+
+.landing {
+animation: 1s slidein ease-out;	
+}
+h1, h2, h3, h4, p, ul li {
+	color: #2F2F2F;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Playfair Display', serif;
+}
+
+p, ul li {
+	 font-family: 'Source Sans Pro', sans-serif;
+}
+.index {
+	font-size: 2em;
+	padding-left: 15px;
+	animation: 2s fadein ease-out;
+}
+
+.max{
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    width: 150px;
+	border-radius: 100px;
+	animation: 2s fadein ease-out;
+}
+
+button {
+	border-radius: 25px;
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+	background-color: rgba(53,169,219,1.00);
+	
+	padding: 10px;
+	animation: 2s fadein ease-out;
+}
+button a{
+	color: #2F2F2F;
+	text-decoration: none;
+}
+button:hover {
+	background-color: rgba(53,169,219,.60);
+	
+}
+button a:hover{
+	color: #434343;
+}
+
+.resume h2, h3 {
+	text-align: center;
+	font-size: 2.5em
+}
+
+.resume h4 {
+	text-decoration: underline;
+	padding-left: 30px;
+	font-size: 2em;
+}
+
+.resume p {
+	margin-left: 20px;
+	font-size: 1.5em;
+}
+.resume ul li {
+	margin-left: 20px;
+	font-size: 1.5em;
+}
+.info {
+	text-align:center;
+	text-decoration: underline;
+}
+
+iframe {
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.graphics {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+
+.graphics video {
+	margin: 40px;
+}
+
+.portfolio p {
+	padding-left: 20px;
+	font-size: 1.5em;
+}
+
+.portfolio h2 {
+	font-size: 3em;
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+p.input.textarea.label {
+	 font-family: 'Source Sans Pro', sans-serif; 
+}
+
+form {
+	max-width:500px;
+	margin: 0 auto;
+	text-align: left;
+	padding 20px 0;
+}
+
+input, textarea, label {
+	display:block;
+	margin: 0 auto;
+	width: 100%;
+	
+}
+input[type=submit] {
+	background-color: rgba(53,169,219,1.00);
+	padding: 5px 0;
+	color: #2F2F2F;
+	font-size: 20px;
+	margin-top: 15px;
+	cursor:pointer;
+}
+
+input[type=submit]:hover {
+color: #434343;	
+	background-color: rgba(53,169,219,.60);
+}
+
+input, textarea {
+	font-size: 20px;
+	padding: 5px;
+}
+@keyframes fadein {
+	from {
+		opacity: 0;
+	} to {
+		opacity: 1;
+	}
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
